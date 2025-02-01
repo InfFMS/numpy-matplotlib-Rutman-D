@@ -90,3 +90,5 @@ values = [c1 / s * 100, c2/ s * 100, c3/ s * 100, c4/ s * 100, c5/ s * 100, c6/ 
 plt.bar(categories, values, color='purple')
 plt.title("Столбчатая диаграмма")
 plt.show()
+
+
