@@ -7,3 +7,26 @@
 # Само поле (где мины выделены красным).
 # Поле с числами, где указано количество мин вокруг каждой клетки (для наглядности).
 #
+
+import matplotlib.pyplot as plt
+import numpy as np
+x = 0
+y = 0
+fig, ax = plt.subplots()
+for i in range(16):
+    x = np.random.randint(1, 11)
+    y = np.random.randint(1, 11)
+
+    c = plt.Circle((x, y), 0.4, color="red", label="Окружность")
+    ax.add_patch(c)
+
+plt.text(1,1, "A")
+plt.xlim(0, 11)
+plt.ylim(0, 11)
+
+
+
+plt.show()
+
+
+
