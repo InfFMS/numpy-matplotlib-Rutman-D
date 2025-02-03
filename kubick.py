@@ -88,7 +88,9 @@ categories = ["1", "2", "3", "4", "5", "6"]
 values = [c1 / s * 100, c2/ s * 100, c3/ s * 100, c4/ s * 100, c5/ s * 100, c6/ s * 100]
 
 plt.bar(categories, values, color='purple')
-plt.title("Столбчатая диаграмма")
+plt.xlabel("Выпавшее значение кубика")
+plt.ylabel("Вероятность, %")
+plt.title("Кубик")
 plt.show()
 
 
